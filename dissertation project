@@ -1,0 +1,25 @@
+# MSc Dissertation: Bayesian Modelling in Longitudinal Health Data
+
+## Overview
+This project explores the application of three Bayesian computation methods — MCMC, INLA, and Variational Bayes — for analysing large longitudinal and survival datasets. Conducted as part of my MSc Health Data Science at the University of Liverpool.
+
+## Objective
+To compare performance in terms of estimation accuracy, computational efficiency, and uncertainty quantification using simulated and real-world health data.
+
+## Methods & Tools
+- R (JMbayes, rstan, INLA)
+- Statistical Methods: Joint Modelling, MCMC, INLA, Variational Bayes
+- Diagnostics: Trace plots, autocorrelation, posterior summaries
+
+## Key Findings
+- MCMC was most accurate but computationally intensive
+- INLA offered fast, approximate results ideal for latent Gaussian models
+- VB was fastest but underestimated uncertainty in posterior estimates
+
+## File Structure
+
+
+## Author
+**Srinivas Kalari**  
+MSc Health Data Science, University of Liverpool  
+[LinkedIn](https://www.linkedin.com/in/srinivas-kalari-a82557304)
